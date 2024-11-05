@@ -1,0 +1,17 @@
+This diagram presents a network configured with default routing in Cisco Packet Tracer, designed to demonstrate how default routes are used to simplify routing in networks with a single exit point.
+Key elements include:
+
+Default Route Configuration:
+In this setup, each router is configured with a default route (or "gateway of last resort"), which directs any unknown or external traffic to a specific next-hop router. This is particularly useful in hub-and-spoke topologies or networks with a single connection to external networks.
+
+Simplified Routing Table:
+Default routing reduces the number of routes that need to be manually entered, making it easier to manage smaller networks. Routers only require one default route to reach external networks, helping simplify the routing process and minimize administrative effort.
+
+Multiple Subnets with a Single Exit:
+The network includes multiple subnets connected to edge routers, which in turn are connected to a central router with an exit point to an external or main network. The central router acts as a gateway for all other routers to reach destinations outside their directly connected networks.
+
+IP Addressing and Connectivity:
+Each router and network segment is assigned a specific IP range. End devices like PCs are connected through switches, and routers are configured to handle inter-subnet traffic using the default route as a fallback for unknown destinations.
+
+Learning Objective:
+This topology is ideal for users learning about default routing and understanding its application in small networks. It illustrates the concept of routing all unknown traffic to a single gateway, making it a good starting point for those new to routing.
